@@ -1,0 +1,9 @@
+version: 1
+updates:
+  - repo: ublue-os/image-template
+    base: main
+    mergeMethod: squash
+    assignees:
+      - robe231
+    labels:
+      - upstream-sync
