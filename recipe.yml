@@ -1,0 +1,25 @@
+base-image: ghcr.io/ublue-os/bazzite:latest
+
+rpm:
+  - steam
+  - gamemode
+  - mangohud
+  - lutris
+  - neofetch
+  - htop
+  - gnome-tweaks
+  - power-profiles-daemon
+
+flatpak:
+  - com.obsproject.Studio
+  - org.kde.krita
+  - com.discordapp.Discord
+  - org.gimp.GIMP
+  - org.vinegarhq.Sober
+  - org.vinegarhq.Vinegar
+
+system:
+  hostname: robe231-bazzite
+  timezone: Europe/Vilnius
+  auto-update: true
+  telemetry: false
